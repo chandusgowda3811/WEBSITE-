@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDEX</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #3b274d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        nav {
+            background-color: #3b274d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 20px;
+        }
+
+        
+        .container {
+            max-width: 1800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #edf5e5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+       
+        button {
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 40px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .b-c {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        a {
+            padding-left: 10px;
+        }
+
+       
+        img {
+            max-width: 40%;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+    
+        .list-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .ordered-list,
+        .unordered-list {
+            flex: 1;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .ordered-list h3,
+        .unordered-list h3 {
+            text-align: center;
+        }
+
+        ul,ol {
+            margin-left: 10px;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        ol {
+            list-style-type: decimal;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+        <a href="#">Sign Up</a>
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Image">
+        </div>
+        <div class="b-c">
+            <a href="https://www.google.com">
+                <button>Click Me and Visit</button>
+            </a>
+        </div>
+        <div class="list-container">
+            <div class="ordered-list">
+                <h2>ORDERED LIST</h2>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ol>
+            </div>
+            <div class="unordered-list">
+                <h2>UNORDERED LIST</h2>
+                <ul>
+                    <li>Item A</li>
+                    <li>Item B</li>
+                    <li>Item C</li>
+                    <li>Item D</li>
+                    <li>Item E</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&COPY; 2023 All rights reserved</p>
+    </footer>
+</body>
+</html>
